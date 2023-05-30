@@ -1,0 +1,19 @@
+https://preview.colorlib.com/#gym
+
+Yuxarida verilen linkə daxil olacaqsiz.Sizə verilən şəkildəki hissələri yazacaqsiz.
+
+
+Əsaslar
+   -Responsive olmalıdır(Desktop və Mobile üçün).
+   -Struktur olmalıdır.
+   -Secili olan hissəni mockapi ilə yaradib fetch ilə sorğu atib CRUD(Create,Update,Delete,GetAll) əməliyyatlari edəcəksiz.
+   -Search by Name(İnput elave edib həmin inputa Name yazib buttona click etdikdə həmin Name`də olan Cardlari gətirəcək.)
+Əlavələr
+   -Load More vəya Pagination
+   -Scss
+   -Filter
+   -Basket iconu əlavə edib Basket məntiqini yazmaq(Javascript ilə).
+   
+eyd:Qara çərçivədəki section CRUD yazacaqsiz.Add page`ində isə navbar footer və form
+olacaq.Form ilə input doldurulub submit olunduqda datalar yaratdiginiz api`yə əlavə olacaq.
+Home page`də CRUD olan datalara əlavə olaraq delete buttonu vəya icon əlavə edin.

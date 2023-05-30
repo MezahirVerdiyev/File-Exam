@@ -1,0 +1,178 @@
+.esas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(60, 58, 58);
+  color: white;
+  padding: 10px;
+
+  .imgler {
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      background-color: black;
+      color: rgb(98, 95, 95);
+      padding: 10px;
+    }
+  }
+
+  .header-iconlari {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: xx-large;
+
+    .fa-cart-shopping {
+      background-color: rgb(88, 250, 88);
+      padding: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .esas {
+    .imgler {
+      h1 {
+        display: none;
+      }
+    }
+
+    .header-iconlari {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+.header {
+  .headernav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.711);
+    top: 86px;
+    padding: 8% 0;
+
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+
+        li {
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+
+    @media only screen and (min-width:769px) {
+      display: none !important;
+    }
+  }
+
+  
+  .header-top {
+    border-bottom: 1px solid rgba(177, 177, 177, 0.527);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h5 {
+        font-size: 14px;
+      }
+
+      a {
+        color: black;
+
+        i {
+          color: white;
+          background-color: #f6214b;
+          margin-left: 10px;
+          padding: 30px 35px;
+        }
+      }
+
+      .header-icon-div {
+        margin: 30px 0;
+        display: none;
+
+        .fa-xmark {
+          font-size: 23px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  .header-bottom {
+    nav {
+
+      
+      ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+          margin: 12px 15px;
+
+          a {
+            font-size: 12px;
+            color: black;
+            font-weight: 600;
+
+            &:hover {
+              color: #f6214b;
+            }
+          }
+        }
+
+        .li-home {
+          a {
+            color: #f6214b;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header-top {
+      .container {
+        h5 {
+          display: none;
+        }
+
+        a {
+          display: none;
+        }
+
+        .header-icon-div {
+          display: block;
+
+          .fa-xmark {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .header-bottom {
+      display: none;
+    }
+  }
+}

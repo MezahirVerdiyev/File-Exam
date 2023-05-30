@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "Revan",
+      "description": "Lorem ipsum dolor sit amet, consect...",
+      "photo": "./assets/img/o2.png"
+    },
+    {
+      "id": 4,
+      "title": "Mezahir4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o3.png"
+    },
+    {
+      "id": 1,
+      "title": "Revan",
+      "description": "Lorem ipsum dolor sit amet, consect...",
+      "photo": "./assets/img/o1.png"
+    },
+    {
+      "id": 4,
+      "title": "Mezahir4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o3.png"
+    },
+    {
+      "id": 1,
+      "title": "Revan",
+      "description": "Lorem ipsum dolor sit amet, consect...",
+      "photo": "./assets/img/o2.png"
+    },
+    {
+      "id": 4,
+      "title": "Mezahir4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o3.png"
+    },
+    {
+      "title": "Mezahir5",
+      "description": "Animi soluta inventlkjhygtrrrrr ghjgvkj ghgjbjkuigtf kjkjkijjhhjjh",
+      "photo": "./assets/img/o2.png",
+      "id": 5
+    },
+    {
+      "title": "Mezahir6",
+      "description": "Quia illum ipsam ac",
+      "photo": "./assets/img/o1.png",
+      "id": 6
+    },
+    {
+      "title": "Revan",
+      "description": "Mezhir",
+      "photo": "./assets/img/c1.jpg",
+      "id": 7
+    }
+  ],
+  "favdata": [
+    {
+      "id": 1,
+      "title": "Revan9",
+      "description": "Lorem ipsum dolor sit amet, consect...",
+      "photo": "./assets/img/image1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Mezahir4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o3.png"
+    }
+  ]
+}

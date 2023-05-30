@@ -1,0 +1,60 @@
+footer {
+    background-color: rgb(252, 247, 247);
+    padding: 2% 0;
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        margin: 0;
+        a {
+          color: red;
+        }
+      }
+
+      nav {
+        ul {
+          display: flex;
+          gap: 30px;
+          margin: 0;
+          li {
+            a {
+              width: 40px;
+              height: 40px;
+              background-color: black;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              i {
+                color: rgb(150, 143, 143);
+              }
+            }
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      .footer {
+        flex-direction: column;
+        nav {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .yuxari-ox {
+    display: none;
+    i {
+      background-color: rgb(68, 213, 235);
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(21, 20, 20);
+      position: fixed;
+      right: 30px;
+      bottom: 20px;
+      z-index: 1;
+    }
+  }
